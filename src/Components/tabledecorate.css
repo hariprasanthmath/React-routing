@@ -1,0 +1,23 @@
+
+.userslist {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .userslist td, .userslist th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .userslist tr:nth-child(even){background-color: #f2f2f2;}
+  
+  /* .userslist > tbody tr:hover {background-color: #ddd;} */
+  /* .userlist th>:hover {background-color: black;} */
+  .userslist th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    
+    color: white;
+  }

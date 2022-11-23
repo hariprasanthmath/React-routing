@@ -1,0 +1,19 @@
+.leftsidebar{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    /* justify-content: space-between; */
+    align-items: center;
+    height: 500px;
+    
+}
+.leftsidebar > *{
+    margin-top: 20px;
+}
+.prodcont{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* align-items: center; */
+    margin-top: 50px;
+}
